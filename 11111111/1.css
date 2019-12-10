@@ -1,0 +1,442 @@
+@font-face {
+  font-family: 'BBadr';
+  src: url('Newfolder/fonts/BBadr.eot?#') format('eot'),
+    /* IE6–8 */
+    url('/Newfolderfonts/BBadr.woff') format('woff'),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('/Newfolderfonts/BBadr.ttf') format('truetype');
+  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, ;
+}
+
+.item2 .sport-shoes img {
+  height: 280px;
+width: 350px;
+  margin-top: 13px;
+
+}
+
+.item2 .sport-shoes {
+  height: 400px;
+}
+
+.item2 .sport-shoes div {
+  height: 320px;
+}
+
+
+.item2 .women-shoes img {
+  height: 280px;
+  width: 350px;
+  margin-top: 13px;
+
+}
+
+.item2 .women-shoes {
+  height: 400px;
+}
+
+.item2 .women-shoes div {
+  height: 320px;
+}
+
+.item2 .baby-shoes img {
+  height: 280px;
+  width: 350px;
+  margin-top: 13px;
+
+}
+
+.item2 .baby-shoes {
+  height: 400px;
+}
+
+.item2 .baby-shoes div {
+  height: 320px;
+}
+
+.item2 .men-shoes img {
+  height: 280px;
+  width: 350px;
+  margin-top: 13px;
+
+}
+
+.item2 .men-shoes {
+  height: 400px;
+}
+
+.item2 .men-shoes div {
+  height: 320px;
+}
+
+.item0 {
+  grid-area: heater;
+  background: linear-gradient(to right, #304352, #d7d2cc);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+
+
+}
+
+.item1 {
+  grid-area: menu;
+  background-color: #d7d2cc;
+  margin-top: 90px;
+  width: 100%;
+}
+
+
+
+.item2 {
+  grid-area: main;
+}
+
+
+
+.men-shoes,
+.women-shoes,
+.sport-shoes,
+.baby-shoes {
+
+  display: flex;
+  justify-content: space-around;
+  border-radius: 3px;
+  background-color: #d7d2cc;
+  border: 1px solid #ffffff;
+  padding: 20px;
+  margin: 20px;
+
+
+}
+
+
+.sport-shoes div,
+.men-shoes div,
+.women-shoes div,
+.baby-shoes div {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 17px;
+  background-color: white;
+  text-align: center;
+  height: 90%;
+  margin: 2px;
+  padding-bottom: 10px;
+
+}
+
+.sport-shoes img,
+.men-shoes img,
+.women-shoes img,
+.baby-shoes img {
+  display: flex;
+  justify-content: space-around;
+}
+
+.shoes>div {
+  background-color: #cccccc;
+  border: 1px solid black;
+  border-radius: 19px;
+  margin: 20px;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.item5 {
+  grid-area: section;
+}
+
+.item4 {
+  grid-area: footer;
+  background-image: url(img/seamless-shoes-background-vector-1783409.jpg);
+
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+
+
+
+.grid-container {
+  grid-template-areas: 'heater heater heater heater heater heater'
+    'menu menu menu menu menu menu'
+    ' main main main main main main'
+    'footer footer footer footer footer footer';
+  display: grid;
+  background-color: #cccccc;
+
+
+
+}
+
+.grid-container>div {
+
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+
+}
+
+
+
+
+nav a {
+  float: right;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+nav a:hover {
+
+  transition: 0.5s;
+  color: red;
+
+
+}
+
+nav ul {
+  margin: 0;
+
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+nav li {
+  margin: 0;
+}
+
+
+.item0 input[type=search] {
+  background-color: #d7d2cc;
+  padding: 10px;
+  margin-top: 8px;
+  margin-right: 200px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  text-align: right;
+  width: 50%;
+  background-image: url(img/download.png);
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  background-position: 6px 7px;
+
+
+}
+
+
+@media screen and (max-width: 954px) {
+
+  nav a,
+  .item0 input[type=search] {
+    float: none;
+    display: inline-block;
+    text-align: right;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+
+  .item0 input[type=search] {
+    border: 1px solid #ccc;
+    background-image: none;
+  }
+
+  .web-name1 {
+    display: none;
+  }
+
+ .men-shoes>div,
+  .women-shoes>div,
+  .sport-shoes>div,
+  .baby-shoes>div {
+    float: none;
+    display: flex;
+    flex-direction: column;
+  
+
+  }
+}
+
+
+
+ 
+
+
+
+.item0>.web-name1 {
+
+  font-size: 40x;
+
+}
+
+.s-name {
+  color: red;
+}
+
+.web-name2 {
+  float: left;
+  margin-left: 20px;
+  margin-top: 9px;
+}
+
+.dropdown-link {
+  position: relative;
+}
+
+div.dropdown-menu {
+  position: absolute;
+  top: 40px;
+  width: 240px;
+  border: 1px solid #d7d2cc;
+  text-align: center;
+  background-color: #d7d2cc;
+  display: none;
+  border-radius: 9px;
+  z-index: 1;
+  box-shadow: 5px 5px 20px #d7d2cc;
+}
+
+
+div.dropdown-menu>ul>li>a {
+  padding: 10px 25px;
+  display: block;
+}
+
+div.dropdown-menu>ul>li>a:hover {
+
+  color: red;
+}
+
+.dropdown-link:hover>.dropdown-menu {
+  display: block;
+}
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input {
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  font-size: 14px;
+}
+
+.form button {
+  font-family: "Roboto", sans-serif;
+  background: red;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  position: relative;
+}
+
+.back-to-top {
+  background-color: #304352;
+  position: absolute;
+  padding: 20px 20px;
+  border-radius: 100%;
+  right: 25px;
+
+}
+
+.back-to-top i {
+  color: snow;
+}
+
+.copyright a {
+  color: red;
+}
+
+.item1 .home {
+  color: red;
+}
