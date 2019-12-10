@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <p id="lbl"></p>
+</body>
+<script>
+var grades=[66,80,50,40,20,20,20,10,90]
+var fail=grades.filter(myFun);
+document.getElementById("lbl").innerHTML=fail;
+function myFun(value)
+{
+    return value<60
+}
+
+</script>
+</html>

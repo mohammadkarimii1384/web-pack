@@ -1,0 +1,10 @@
+reduce کاهش                                                         
+reduceRight                                                 روکسو
+every      تفاوتش با filter
+some
+indexOf
+lastIndexof
+findIndex
+
+
+برنامه بنویسید سن را دریافت کند اگر بالا 18 بود در الرت خوش امد گوید و اگر کمتر بود در الرت خداحافظی کند

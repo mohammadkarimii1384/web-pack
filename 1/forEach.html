@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <p id="lbl"></p>
+</body>
+<script>
+    var test = "";
+var numbers=[100,70,80,95,7,10,20]
+numbers.forEach(myFun);
+document.getElementById("lbl").innerHTML =test;
+
+function myFun(value)
+{
+    test =test+value+"<br>";
+}
+</script>
+</html>
