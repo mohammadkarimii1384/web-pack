@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    Input User name: <input type="text" id="userNme">
+    <br><br>
+    Input password: <input type="text" id="pass">
+    <br><br>
+<button onclick="LogIn()">login</button>
+</body>
+<script>
+function LogIn()
+{
+    var username=document.getElementById('userNme').value;
+    var password=document.getElementById('pass').value;
+    if((username=='admin')&&(password=="admin123"))
+    {
+        alert("wellcom admin!");
+    }
+    else{
+        alert("goodbye");
+    }
+}
+</script>
+</html>

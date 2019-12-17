@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    Select your favorite color:
+    <select name="" id="selection" onchange="Identity()">
+        <option value="red">Red</option>
+        <option value="yellow" >Yellow</option>
+        <option value="green" >Green</option>
+        <option value="blue" >Blue</option>
+    </select>
+    <h2 id="result"></h2>
+</body>
+<script>
+function Identity()
+{
+    var selection=document.getElementById('selection').value;
+    if('red')
+    {
+    document.getElementById('result').innerHTML="شما هیجانی هستید";
+    }           
+    else if('yellow')
+    {
+    document.getElementById('result').innerHTML="شما باهوش هستید";
+    }       
+    else if('green')
+    {
+    document.getElementById('result').innerHTML="شما احساساتی هستید  ";
+    }
+    else if('blue')
+    {
+    document.getElementById('result').innerHTML="شما ارام هستید  ";
+    }    
+}
+</script>
+</html>

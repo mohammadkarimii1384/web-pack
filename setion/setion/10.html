@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+ password: <input type="text" id="pass">
+
+<button onclick="pass()">click</button>
+
+         <!-- <p id="lbl"></p> -->
+</body>
+<script>
+// var text="";
+// var i=0;
+// do{
+// text+=i+"<br>";
+// i++;    
+// }
+// while(i<10);
+// document.getElementById('lbl').innerHTML=text;
+
+function pass()
+{
+    var pass="00001111";
+    var i;
+   if(document.getElementById("pass").value==pass){
+       alert("welcom");       
+   }
+       else if(document.getElementById("pass").value=!pass)
+       {
+           for(i=0;i<4;i++)
+           {
+               alert("not true");
+           }
+       }
+       else{
+           alert("your password is not true you have to check it!");
+       }    
+         
+}
+
+</script>
+</html>

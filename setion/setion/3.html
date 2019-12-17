@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    enter your graid: <input type="text" id="gr">
+    <br><br>
+    <button onclick="Score()">evaluate score</button>
+    <h1 style="color: red;" id="lblGrade"></h1>
+</body>
+<script>
+function Score()
+{
+    var Grade=document.getElementById("gr").value;
+    if(grade>=18 && grade<=20){
+    document.getElementById('lblGrade').innerHTML="عالی";
+    }
+    else if(grade>=16 && grade<18){
+    document.getElementById('lblGrade').innerHTML="بسیار خوب";
+}
+    else if(grade>=14 && grade<16){
+        document.getElementById('lblGrade').innerHTML="خوب";
+    }
+    else if(grade>=12 && grade<14){
+        document.getElementById('lblGrade').innerHTML="معمولی";
+    }
+    else{
+        document.getElementById('lblGrade').innerHTML="واقعا که";
+    }
+}
+</script>
+</html>
