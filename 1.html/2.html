@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form name="myForm" action="/mohammad.asp" method="POST" onsubmit="return myFun()">
+    name: <input type="text" name="fname">
+    <input type="submit" value="Submit">
+</form>
+</body>
+<script>
+function myFun(){
+var x=document.forms["myForm"]["fname"].value;
+if(x==""){
+    alert("please enter name");
+    return false;
+}
+}
+</script>
+</html>

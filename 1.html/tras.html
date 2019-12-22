@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+      <p>please enter your Score</p>
+      <input id="demo" type="text">
+      <button type="button" onclick=myFun()>test input</button>
+      <p id="p01"></p>
+</body>
+<script>
+function myFun(){
+    var message,x;
+    message=document.getElementById("p01");
+    message.innerHTML="";
+    x=document.getElementById("demo").value;
+    try{
+        if(x=="") throw "empty"
+        if(x>20) throw "this isn big number"
+        if(x<0) throw "this isn small number"
+        if(isNaN(x))alert("this is not number")
+    }
+    catch(err){
+        message.innerHTML="input is: "+err;
+    }
+}
+</script>
+</html>

@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    name: <input type="text" id="fname">
+    <input type="button" value="submit" onclick="myFun()">
+    <p id="demo" style="color: red;"></p>
+</body>
+<script>
+function myFun(){
+var x,text;
+x=document.getElementById("fname").value;
+if(isNaN(x)||x<1||x>10){
+text="input not valid";
+document.getElementById("demo").innerHTML=text;
+}
+else{
+    text="input is ok"
+document.getElementById("demo").style.color="green"}
+}
+
+</script>
+</html>
